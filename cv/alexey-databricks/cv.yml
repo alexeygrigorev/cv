@@ -1,0 +1,141 @@
+# =============================================================================
+# Alexey Grigorev — CV  ·  tailored for Databricks Staff FDE (req 8653264002)
+# Base: alexey/cv.yml (common source of truth). See TAILORING.md for what
+# changed and why.
+#   Build:  uv run render.py alexey-databricks   # -> alexey-databricks/cv.html
+# =============================================================================
+
+basics:
+  name: Alexey Grigorev
+  headline: Forward Deployed Engineer — Production Data & AI Systems
+  location: Berlin, Germany
+  email: alexey@datatalks.club
+  links:
+    - { label: LinkedIn, text: linkedin.com/in/agrigorev, url: https://www.linkedin.com/in/agrigorev }
+    - { label: GitHub, text: github.com/alexeygrigorev, url: https://github.com/alexeygrigorev }
+    - { label: Site, text: alexeygrigorev.com/cv, url: https://alexeygrigorev.com/cv }
+
+  summary: >-
+    Customer-facing AI engineer with 16 years in software engineering and 14 years
+    in AI and ML. I embed with teams to scope, build, and productionize data and
+    AI systems end-to-end — from understanding user workflows to shipping secure,
+    scalable solutions. Founder of DataTalks.Club, where I run a 100k+ learner
+    community and develop tools to support its operations. Previously led the ML
+    platform team at OLX and built high-throughput production ML systems.
+
+# Ordered for this posting: delivery first, then data platform depth.
+skills:
+  - group: Solution Delivery
+    items: [end-to-end ownership, technical delivery, architecture ownership, stakeholder communication]
+  - group: Data & AI Platforms
+    items: [Apache Spark, data pipelines, ML platforms, MLOps]
+  - group: AI Engineering
+    items: [LLM applications, RAG, agents, evaluations, human-in-the-loop systems]
+  - group: Production Systems
+    items: [Python, Scala, AWS, Kubernetes, Docker, Terraform, "CI/CD"]
+
+experience:
+  - company: DataTalks.Club
+    title: Founder & Product Engineer
+    location: Berlin, Germany
+    period: Sep 2020 – Present
+    bullets:
+      - >-
+        Own AI product work end-to-end for a 100k+ learner community — discover
+        user problems, scope iterations, and ship and improve production LLM/RAG
+        systems, including a user-facing Slack Q&A assistant embedded in the
+        community workflow.
+      - >-
+        Built an internal operations platform that combines workflow state for
+        SOPs, playbooks, and recurring workflows with knowledge search and
+        reviewable AI assistant jobs.
+      - >-
+        Created free education programs (ML, MLOps, LLM, and Data Engineering
+        Zoomcamps) reaching 100k+ students; run day-to-day operations with a small
+        team using coding-agent-assisted workflows.
+
+  - company: OLX Group
+    title: Senior → Lead → Principal Data Scientist
+    location: Berlin, Germany
+    period: Oct 2018 – Mar 2023
+    bullets:
+      - >-
+        Led OLX Europe's internal ML platform and a cross-functional MLOps team,
+        standardizing how data scientists and ML engineers build, deploy, and
+        operate models across the group.
+      - >-
+        Provided technical leadership through architecture ownership, mentoring
+        and upskilling programs, hackathons, and cross-company knowledge sharing.
+      - >-
+        Built two high-throughput production ML systems — duplicate-image
+        detection covering 95% of inventory (~250 images/sec) and a platform for
+        serving deep-learning models (~200 images/sec).
+
+projects:
+  - name: Slack FAQ Assistant
+    bullets:
+      - >-
+        Slack RAG assistant that answers community members' questions directly
+        in their workflow, deployed as a serverless application.
+      - >-
+        Evaluation of both retrieval (search) quality and answer (generation)
+        quality to catch regressions and guide improvements.
+      - >-
+        A process that reviews unanswered and corrected questions from Slack to
+        expand both the evaluation set and the knowledge base, so the assistant
+        keeps improving from real usage.
+
+  - name: DataOps — AI-Assisted Operations Platform
+    bullets:
+      - >-
+        Internal platform for SOPs, playbooks, recurring workflows, task state,
+        search, and assistant jobs on a cloud/serverless backend.
+      - >-
+        Turns messy business operations (support, content, podcast, course ops)
+        into reviewable, semi-automated human-in-the-loop workflows.
+
+experience_earlier:
+  - period: "2017 – 2018"
+    company: Simplaex
+    role: Data Scientist / Engineer
+    detail: "AdTech, TB-scale data processing"
+    stack: [Python, Scala, Spark, AWS]
+    location: Berlin
+  - period: "2015 – 2017"
+    company: Searchmetrics
+    role: Data Scientist
+    detail: "SEO, NLP"
+    stack: [Java, Python, Elasticsearch, AWS]
+    location: Berlin
+  - period: "2013 – 2014"
+    company: Small Software Factory
+    role: Data Scientist
+    detail: "Freelancing across many projects"
+    stack: [Java, Python, scikit-learn]
+    location: Remote
+  - period: "2010 – 2013"
+    company: "Luxoft / Auriga / Intech"
+    role: Software Engineer (Java)
+    detail: "Java software engineering"
+    stack: [Java, Spring, Hibernate]
+    location: "EU / Russia"
+
+education:
+  - degree: MSc — IT4BI (Information Technologies for Business Intelligence)
+    school: Erasmus Mundus joint program — ULB, Université François-Rabelais, TU Berlin
+    period: 2013 – 2015
+    note: "Specialization: Large-Scale Business Intelligence"
+  - degree: BSc — Information Systems and Technologies
+    school: Far Eastern State Academy, Russia
+    period: 2006 – 2010
+    note: "Faculty of Mathematics, Information Technologies and Engineering"
+
+recognition:
+  books:
+    - { title: "Machine Learning Bookcamp", publisher: Manning, year: 2021, url: "https://mlbookcamp.com/" }
+    - { title: "Mastering Java for Data Science", publisher: Packt, year: 2017, url: "https://www.packtpub.com/en-de/product/mastering-java-for-data-science-9781785887390" }
+  highlights:
+    - Taught AI, ML, and data engineering to 100k+ learners through free open-source courses.
+    - Kaggle Master — multiple top-10 finishes and competition wins (NIPS'17 Criteo, WSDM Cup 2017, Instagram Challenge).
+    - Top 100 among all GitHub users by number of commits.
+    - Author, technical reviewer, and international conference speaker.

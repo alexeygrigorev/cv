@@ -15,6 +15,7 @@ from upstream except one backward-compatible renderer extension: optional
 |------|---------|
 | `cv/alexey/cv.yml` | **Common source of truth. Edit this.** General improvements discovered while tailoring get traced back here. |
 | `cv/alexey-datadog/cv.yml` | Datadog-tailored variant (Aug 2026) + `TAILORING.md` explaining the diff. |
+| `cv/alexey-databricks/cv.yml` | Databricks Staff FDE variant + `TAILORING.md` (req 8653264002). |
 | `cv/render.py` | Shared renderer (`uv run render.py <person>` → `<person>/cv.html`). |
 | `cv/*/cv.html`, `cv/*/cv.pdf` | Generated, git-ignored. Never edit by hand. |
 
