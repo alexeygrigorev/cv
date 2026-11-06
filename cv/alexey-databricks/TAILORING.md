@@ -27,8 +27,9 @@ production data + AI systems — and leaves reusable assets behind.
   plus a full Spark batch-processing module taught in Data Engineering Zoomcamp
   (DataFrames, Spark SQL, cluster anatomy, RDDs, Dataproc). Honest limit: user
   rather than runtime-contributor depth (see Gaps).
-- Python + Scala, CI/CD, MLOps, AWS → skills as listed; Scala/Spark surfaced
-  from earlier experience rather than invented.
+- Python, CI/CD, MLOps, AWS → skills as listed; Spark surfaced from earlier
+  experience rather than invented. (Scala kept only in the Simplaex stack —
+  historical fact, not advertised in skills.)
 - Customer immersion, stakeholders IC→exec → OLX de-facto internal-consultant
   role: cross-group standardization + `stakeholder communication` in skills.
 

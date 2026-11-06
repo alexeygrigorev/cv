@@ -33,7 +33,7 @@ skills:
   - group: AI Engineering
     items: [LLM applications, RAG, agents, evaluations, human-in-the-loop systems]
   - group: Production Systems
-    items: [Python, Scala, AWS, Kubernetes, Docker, Terraform, "CI/CD"]
+    items: [Python, AWS, Kubernetes, Terraform, "CI/CD"]
 
 experience:
   - company: DataTalks.Club
