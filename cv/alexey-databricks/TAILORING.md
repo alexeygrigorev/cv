@@ -12,8 +12,8 @@ production data + AI systems — and leaves reusable assets behind.
 ## Posting requirement → evidence mapping
 
 - Production solution delivery, reference architectures, custom apps, ML/AI
-  integration → DataTalks.Club end-to-end bullet (Slack Q&A, ops platform);
-  both Projects entries are custom production applications.
+  integration → DataTalks.Club end-to-end bullet (user-facing Slack Q&A, ops
+  platform); throughput numbers as delivery proof.
 - Own the Architecture (secure, scalable) → OLX platform-leadership bullet;
   `architecture ownership` in skills.
 - Scope technical delivery, measurable outcomes → `technical delivery` in skills;
@@ -41,8 +41,12 @@ production data + AI systems — and leaves reusable assets behind.
   Systems (evidenced at Simplaex).
 - One word added to a DataTalks bullet: `user-facing` Slack assistant
   (posting asks for user-facing interfaces; it is one).
-- Projects and full Recognition kept (unlike the datadog variant) — custom
-  apps and enablement record are the point of an FDE application.
+- One-page budget (compact density + cuts below); page-2 spill was a Luxoft
+  row + full Education + full Recognition.
+- Projects dropped (Slack assistant already evidenced under Experience;
+  DataOps cut for length — same one-page formula as the datadog variant).
+- Education-programs bullet dropped (taught-100k line stays in Recognition).
+- Recognition trimmed like datadog (books + taught + Kaggle short).
 
 ## Honest gaps (do NOT paper over)
 

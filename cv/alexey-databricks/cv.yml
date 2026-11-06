@@ -10,6 +10,7 @@ basics:
   headline: Forward Deployed Engineer — Production Data & AI Systems
   location: Berlin, Germany
   email: alexey@datatalks.club
+  density: compact # one page
   links:
     - { label: LinkedIn, text: linkedin.com/in/agrigorev, url: https://www.linkedin.com/in/agrigorev }
     - { label: GitHub, text: github.com/alexeygrigorev, url: https://github.com/alexeygrigorev }
@@ -49,11 +50,6 @@ experience:
         Built an internal operations platform that combines workflow state for
         SOPs, playbooks, and recurring workflows with knowledge search and
         reviewable AI assistant jobs.
-      - >-
-        Created free education programs (ML, MLOps, LLM, and Data Engineering
-        Zoomcamps, including an Apache Spark batch-processing module) reaching
-        100k+ students; run day-to-day operations with a small
-        team using coding-agent-assisted workflows.
 
   - company: OLX Group
     title: Senior → Lead → Principal Data Scientist
@@ -73,28 +69,8 @@ experience:
         detection covering 95% of inventory (~250 images/sec) and a platform for
         serving deep-learning models (~200 images/sec).
 
-projects:
-  - name: Slack FAQ Assistant
-    bullets:
-      - >-
-        Slack RAG assistant that answers community members' questions directly
-        in their workflow, deployed as a serverless application.
-      - >-
-        Evaluation of both retrieval (search) quality and answer (generation)
-        quality to catch regressions and guide improvements.
-      - >-
-        A process that reviews unanswered and corrected questions from Slack to
-        expand both the evaluation set and the knowledge base, so the assistant
-        keeps improving from real usage.
-
-  - name: DataOps — AI-Assisted Operations Platform
-    bullets:
-      - >-
-        Internal platform for SOPs, playbooks, recurring workflows, task state,
-        search, and assistant jobs on a cloud/serverless backend.
-      - >-
-        Turns messy business operations (support, content, podcast, course ops)
-        into reviewable, semi-automated human-in-the-loop workflows.
+# No `projects:` section — the Slack assistant is evidenced under Experience;
+# DataOps cut for the one-page budget (CV-PROCESS.md §5.4).
 
 experience_earlier:
   - period: "2017 – 2018"
@@ -138,6 +114,4 @@ recognition:
     - { title: "Mastering Java for Data Science", publisher: Packt, year: 2017, url: "https://www.packtpub.com/en-de/product/mastering-java-for-data-science-9781785887390" }
   highlights:
     - Taught AI, ML, and data engineering to 100k+ learners through free open-source courses.
-    - Kaggle Master — multiple top-10 finishes and competition wins (NIPS'17 Criteo, WSDM Cup 2017, Instagram Challenge).
-    - Top 100 among all GitHub users by number of commits.
-    - Author, technical reviewer, and international conference speaker.
+    - Kaggle Master — multiple top-10 finishes and competition wins (NIPS'17 Criteo, WSDM Cup 2017).
