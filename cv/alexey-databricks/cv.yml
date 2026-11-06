@@ -17,19 +17,19 @@ basics:
     - { label: Site, text: alexeygrigorev.com/cv, url: https://alexeygrigorev.com/cv }
 
   summary: >-
-    Customer-facing AI engineer with 16 years in software engineering and 14 years
-    in AI and ML. I embed with teams to scope, build, and productionize data and
-    AI systems end-to-end — from understanding user workflows to shipping secure,
-    scalable solutions. Founder of DataTalks.Club, where I run a 100k+ learner
+    Product-minded AI engineer with 16 years in software engineering and 14 years
+    in AI and ML. I work with engineering teams to scope, build, and productionize
+    data and AI systems end-to-end — from understanding user workflows to shipping
+    working solutions. Founder of DataTalks.Club, where I run a 100k+ learner
     community and develop tools to support its operations. Previously led the ML
     platform team at OLX and built high-throughput production ML systems.
 
 # Ordered for this posting: delivery first, then data platform depth.
 skills:
   - group: Solution Delivery
-    items: [end-to-end ownership, technical delivery, architecture ownership, stakeholder communication]
+    items: [end-to-end ownership, MVP scoping, architecture ownership, stakeholder communication]
   - group: Data & AI Platforms
-    items: [Apache Spark, data pipelines, ML platforms, MLOps]
+    items: [Apache Spark, TB-scale data processing, ML platforms, MLOps]
   - group: AI Engineering
     items: [LLM applications, RAG, agents, evaluations, human-in-the-loop systems]
   - group: Production Systems

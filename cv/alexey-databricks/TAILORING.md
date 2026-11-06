@@ -16,8 +16,9 @@ production data + AI systems — and leaves reusable assets behind.
   platform); throughput numbers as delivery proof.
 - Own the Architecture (secure, scalable) → OLX platform-leadership bullet;
   `architecture ownership` in skills.
-- Scope technical delivery, measurable outcomes → `technical delivery` in skills;
-  throughput numbers (~250 / ~200 images/sec) as outcome proof.
+- Scope technical delivery, measurable outcomes → `MVP scoping` +
+  end-to-end ownership in skills; throughput numbers (~250 / ~200 images/sec)
+  as outcome proof.
 - Empower customers, training, adoption → education-programs bullet + taught-100k
   recognition line + two technical books (documentation/enablement evidence).
 - Reusable assets & scale → open-source course materials; evaluation
@@ -60,12 +61,18 @@ production data + AI systems — and leaves reusable assets behind.
   is what it was.
 
 ## Trace-back log
-
 - Education bullet now names the Apache Spark batch-processing module
   (verified in DataTalksClub/data-engineering-zoomcamp `06-batch`) — applied to
   the common source too, since it's factual and useful for any data-platform
   role. (Scala/Spark already live in the common earlier-experience stacks;
   only their promotion to skills is variant-specific.)
+- Truthfulness pass (Nov 2026): removed unbacked wording — `Customer-facing`
+  (delivery was internal/community), `embed with teams` + `secure` (posting
+  language, not evidenced), `technical delivery` → your evidenced `MVP scoping`,
+  `data pipelines` → your evidenced `TB-scale data processing`. Verified the
+  rest against the full CV: Scala/Spark (Simplaex), Kubernetes/Terraform (OLX),
+  architecture ownership, stakeholder communication (cross-group work),
+  MLOps/ML platforms, throughput numbers.
 
 ## Reuse
 
