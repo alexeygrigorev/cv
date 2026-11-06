@@ -22,8 +22,10 @@ production data + AI systems — and leaves reusable assets behind.
   recognition line + two technical books (documentation/enablement evidence).
 - Reusable assets & scale → open-source course materials; evaluation
   feedback loops that keep improving from real usage.
-- Spark / distributed computing → Simplaex earlier-role (Spark, TB-scale).
-  Honest limit: no Spark-runtime-internals depth claimed (see Gaps).
+- Spark / distributed computing → production use at Simplaex (Spark, TB-scale)
+  plus a full Spark batch-processing module taught in Data Engineering Zoomcamp
+  (DataFrames, Spark SQL, cluster anatomy, RDDs, Dataproc). Honest limit: user
+  rather than runtime-contributor depth (see Gaps).
 - Python + Scala, CI/CD, MLOps, AWS → skills as listed; Scala/Spark surfaced
   from earlier experience rather than invented.
 - Customer immersion, stakeholders IC→exec → OLX cross-group standardization +
@@ -44,8 +46,9 @@ production data + AI systems — and leaves reusable assets behind.
 
 ## Honest gaps (do NOT paper over)
 
-- No deep Spark-runtime-internals work; Spark evidence is TB-scale usage
-  (Simplaex), not internals.
+- Spark runtime-internals contributor depth; evidence is production use
+  (Simplaex) + teaching the full batch module (incl. cluster anatomy), not
+  internals development.
 - No Databricks certification (posting lists one).
 - Cloud depth is AWS; no evidenced Azure/GCP work.
 - Delivery was to internal groups + community, not formal enterprise
@@ -54,9 +57,11 @@ production data + AI systems — and leaves reusable assets behind.
 
 ## Trace-back log
 
-Pure angle pass — no factual corrections discovered, so the common source is
-untouched. (Scala/Spark already live in the common earlier-experience stacks;
-only their promotion to skills is variant-specific.)
+- Education bullet now names the Apache Spark batch-processing module
+  (verified in DataTalksClub/data-engineering-zoomcamp `06-batch`) — applied to
+  the common source too, since it's factual and useful for any data-platform
+  role. (Scala/Spark already live in the common earlier-experience stacks;
+  only their promotion to skills is variant-specific.)
 
 ## Reuse
 
