@@ -49,3 +49,9 @@ every future application, so they live in the common source:
 
 Next position: `cp -r cv/alexey cv/alexey-<company>`, trim/add per the posting,
 note the diff here. Never hand-edit generated `cv.html`/`cv.pdf`.
+
+## Postscript (Nov 2026)
+
+Later common-source refinements (OLX internal-consultant wording) are
+intentionally NOT backported here — this variant is the as-submitted Aug 2026
+snapshot for a closed application.

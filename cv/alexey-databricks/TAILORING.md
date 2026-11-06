@@ -28,8 +28,8 @@ production data + AI systems — and leaves reusable assets behind.
   rather than runtime-contributor depth (see Gaps).
 - Python + Scala, CI/CD, MLOps, AWS → skills as listed; Scala/Spark surfaced
   from earlier experience rather than invented.
-- Customer immersion, stakeholders IC→exec → OLX cross-group standardization +
-  `stakeholder communication` in skills.
+- Customer immersion, stakeholders IC→exec → OLX de-facto internal-consultant
+  role: cross-group standardization + `stakeholder communication` in skills.
 
 ## What changed vs the common source (`alexey/cv.yml`)
 
