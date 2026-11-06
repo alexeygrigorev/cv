@@ -10,6 +10,7 @@ basics:
   headline: AI Product Engineer — Production AI Systems
   location: Berlin, Germany
   email: alexey@datatalks.club
+  density: compact # one page: matches the submitted Aug 2026 PDF
   links:
     - { label: LinkedIn, text: linkedin.com/in/agrigorev, url: https://www.linkedin.com/in/agrigorev }
     - { label: GitHub, text: github.com/alexeygrigorev, url: https://github.com/alexeygrigorev }
