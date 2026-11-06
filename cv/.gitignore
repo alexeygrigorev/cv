@@ -1,0 +1,7 @@
+# generated output (regenerate with: uv run render.py <person>)
+**/cv.html
+**/cv.pdf
+**/cv.artifact.html
+
+__pycache__/
+*.pyc

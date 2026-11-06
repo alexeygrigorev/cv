@@ -1,0 +1,158 @@
+# =============================================================================
+# Alexey Grigorev — CV (common source of truth)
+# Positioning: AI Product Engineer, production AI systems. Renders to a 2-page
+# Harvard-format resume.
+#
+#   Build:  uv run render.py alexey            # -> alexey/cv.html
+#   Print:  open alexey/cv.html in Chrome -> Print -> Save as PDF (A4)
+#
+# THIS is the file to edit. Position-specific variants (e.g. alexey-datadog/)
+# are full copies of this file with focused trims — see their TAILORING.md.
+# General improvements discovered while tailoring (factual corrections,
+# headline, skills, earlier-role details) get traced back HERE, so the next
+# position starts from the best version.
+#
+# Provenance: structure + renderer from
+# https://github.com/AI-Shipping-Labs/workshops/tree/main/2026/2026-07-08-ai-cv-pipeline
+# (renderer extended only with optional `detail` on experience_earlier entries).
+#
+# Edit THIS file, then re-render. Keep bullets tight and quantified.
+# `variant:` on experience/project entries lets us later filter by target role
+# (applied-ai | ai-platform | fde). Entries with no variant show in all.
+# =============================================================================
+
+basics:
+  name: Alexey Grigorev
+  headline: AI Product Engineer — Production AI Systems
+  location: Berlin, Germany
+  email: alexey@datatalks.club
+  links:
+    - { label: LinkedIn, text: linkedin.com/in/agrigorev, url: https://www.linkedin.com/in/agrigorev }
+    - { label: GitHub, text: github.com/alexeygrigorev, url: https://github.com/alexeygrigorev }
+    - { label: Site, text: alexeygrigorev.com/cv, url: https://alexeygrigorev.com/cv }
+
+  summary: >-
+    Product-minded AI engineer with 16 years in software engineering and 14 years
+    in AI and ML. I build reliable AI systems end-to-end, from identifying user
+    needs to shipping working solutions. Founder of DataTalks.Club, where I run
+    a 100k+ learner community and develop tools to support its operations.
+    Previously led the ML platform team at OLX and built high-throughput
+    production ML systems.
+
+# Grouped for scannability and ATS keyword coverage.
+skills:
+  - group: Product Engineering
+    items: [problem discovery, pragmatic problem-solving, end-to-end ownership]
+  - group: AI Engineering
+    items: [LLM applications, RAG, agents, workflows, evaluations, human-in-the-loop systems]
+  - group: Leadership
+    items: [technical leadership, architecture, mentoring/upskilling, knowledge sharing]
+  - group: Production Systems
+    items: [Python, AWS, Kubernetes, Docker, Terraform, "CI/CD"]
+
+experience:
+  - company: DataTalks.Club
+    title: Founder & Product Engineer
+    location: Berlin, Germany
+    period: Sep 2020 – Present
+    bullets:
+      - >-
+        Own AI product work end-to-end for a 100k+ learner community — discover
+        user problems, scope iterations, and ship and improve production LLM/RAG
+        systems, including a Slack Q&A assistant embedded in the community workflow.
+      - >-
+        Built an internal operations platform that combines workflow state for
+        SOPs, playbooks, and recurring workflows with knowledge search and
+        reviewable AI assistant jobs.
+      - >-
+        Created free education programs (ML, MLOps, LLM, and Data Engineering
+        Zoomcamps) reaching 100k+ students; run day-to-day operations with a small
+        team using coding-agent-assisted workflows.
+
+  - company: OLX Group
+    title: Senior → Lead → Principal Data Scientist
+    location: Berlin, Germany
+    period: Oct 2018 – Mar 2023
+    bullets:
+      - >-
+        Led OLX Europe's internal ML platform and a cross-functional MLOps team,
+        standardizing how data scientists and ML engineers build, deploy, and
+        operate models across the group.
+      - >-
+        Provided technical leadership through architecture ownership, mentoring
+        and upskilling programs, hackathons, and cross-company knowledge sharing.
+      - >-
+        Built two high-throughput production ML systems — duplicate-image
+        detection covering 95% of inventory (~250 images/sec) and a platform for
+        serving deep-learning models (~200 images/sec).
+
+# Compact one-liners so the page stays at two pages.
+# `detail` (what the work was about) renders ahead of stack/location.
+experience_earlier:
+  - period: "2017 – 2018"
+    company: Simplaex
+    role: Data Scientist / Engineer
+    detail: "AdTech, TB-scale data processing"
+    stack: [Python, Scala, Spark, AWS]
+    location: Berlin
+  - period: "2015 – 2017"
+    company: Searchmetrics
+    role: Data Scientist
+    detail: "SEO, NLP"
+    stack: [Java, Python, Elasticsearch, AWS]
+    location: Berlin
+  - period: "2013 – 2014"
+    company: Small Software Factory
+    role: Data Scientist
+    detail: "Freelancing across many projects"
+    stack: [Java, Python, scikit-learn]
+    location: Remote
+  - period: "2010 – 2013"
+    company: "Luxoft / Auriga / Intech"
+    role: Software Engineer (Java)
+    detail: "Java software engineering"
+    stack: [Java, Spring, Hibernate]
+    location: "EU / Russia"
+
+projects:
+  - name: Slack FAQ Assistant
+    bullets:
+      - >-
+        Slack RAG assistant that answers community members' questions directly
+        in their workflow, deployed as a serverless application.
+      - >-
+        Evaluation of both retrieval (search) quality and answer (generation)
+        quality to catch regressions and guide improvements.
+      - >-
+        A process that reviews unanswered and corrected questions from Slack to
+        expand both the evaluation set and the knowledge base, so the assistant
+        keeps improving from real usage.
+
+  - name: DataOps — AI-Assisted Operations Platform
+    bullets:
+      - >-
+        Internal platform for SOPs, playbooks, recurring workflows, task state,
+        search, and assistant jobs on a cloud/serverless backend.
+      - >-
+        Turns messy business operations (support, content, podcast, course ops)
+        into reviewable, semi-automated human-in-the-loop workflows.
+
+education:
+  - degree: MSc — IT4BI (Information Technologies for Business Intelligence)
+    school: Erasmus Mundus joint program — ULB, Université François-Rabelais, TU Berlin
+    period: 2013 – 2015
+    note: "Specialization: Large-Scale Business Intelligence"
+  - degree: BSc — Information Systems and Technologies
+    school: Far Eastern State Academy, Russia
+    period: 2006 – 2010
+    note: "Faculty of Mathematics, Information Technologies and Engineering"
+
+recognition:
+  books:
+    - { title: "Machine Learning Bookcamp", publisher: Manning, year: 2021, url: "https://mlbookcamp.com/" }
+    - { title: "Mastering Java for Data Science", publisher: Packt, year: 2017, url: "https://www.packtpub.com/en-de/product/mastering-java-for-data-science-9781785887390" }
+  highlights:
+    - Taught AI, ML, and data engineering to 100k+ learners through free open-source courses.
+    - Kaggle Master — multiple top-10 finishes and competition wins (NIPS'17 Criteo, WSDM Cup 2017, Instagram Challenge).
+    - Top 100 among all GitHub users by number of commits.
+    - Author, technical reviewer, and international conference speaker.
