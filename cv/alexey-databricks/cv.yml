@@ -31,7 +31,7 @@ skills:
   - group: Data & AI Platforms
     items: [Apache Spark, TB-scale data processing, ML platforms, MLOps]
   - group: AI Engineering
-    items: [LLM applications, RAG, agents, evaluations, human-in-the-loop systems]
+    items: [LLM applications, RAG, agents, evaluations]
   - group: Production Systems
     items: [Python, AWS, Kubernetes, Terraform, "CI/CD"]
 
