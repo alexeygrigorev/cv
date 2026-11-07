@@ -86,6 +86,8 @@ instead of trusting it. Not an ERP-domain specialist.
   mentoring/architecture bullet is folded into that ownership bullet so
   the tailored PDF stays one page. The production-systems bullet now
   says "shipped" rather than "built".
+- Header also includes his blog, https://aishippingblog.com (t695, 2026-11-07).
+  Traced back to the common source.
 - Earlier roles and education unchanged.
 
 ## Honest gaps (do NOT paper over)

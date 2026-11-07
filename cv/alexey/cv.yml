@@ -30,6 +30,7 @@ basics:
     - { label: LinkedIn, text: linkedin.com/in/agrigorev, url: https://www.linkedin.com/in/agrigorev }
     - { label: GitHub, text: github.com/alexeygrigorev, url: https://github.com/alexeygrigorev }
     - { label: Site, text: alexeygrigorev.com/cv, url: https://alexeygrigorev.com/cv }
+    - { label: Blog, text: aishippingblog.com, url: https://aishippingblog.com }
 
   summary: >-
     Product-minded AI engineer with 16 years in software engineering and 14 years
