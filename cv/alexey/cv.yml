@@ -40,9 +40,14 @@ basics:
     production ML systems.
 
 # Grouped for scannability and ATS keyword coverage.
+# Agentic Engineering terms come from Alexey's writing
+# (aishippingblog.com: Trends in Agentic Engineering; Dark Software
+# Factories; AI-Native Development: Specifications, Loop and Graph Engineering).
 skills:
   - group: Product Engineering
     items: [problem discovery, pragmatic problem-solving, end-to-end ownership]
+  - group: Agentic Engineering
+    items: [spec-driven development, software factories, loop engineering, context engineering, graph engineering]
   - group: AI Engineering
     items: [LLM applications, RAG, agents, workflows, evaluations, human-in-the-loop systems]
   - group: Leadership

@@ -1,0 +1,105 @@
+# TAILORING — alexey-digitalassociates
+
+## Target
+
+Digital Associates — Senior Product Engineer, 100% remote (EU).
+Recruiter: Militza Kodzhabasheva
+(`m.kodjabasheva@digitalassociates.de`), LinkedIn message, Nov 2026.
+
+Project: next generation of an established manufacturing ERP (15 million
+lines of code, 6,000–7,000 business processes). The work is to use AI to
+see how the system is really used, lead discovery and requirements
+engineering, evolve workflows while keeping the product upgradable, and
+own agent-written implementation verified with independent tests.
+Start immediately; 3 months, extension likely; full-time; English
+required, German a plus.
+
+Angle: product engineer who discovers real workflows, turns messy
+operations into reviewable AI-assisted processes, and checks agent output
+instead of trusting it. Not an ERP-domain specialist.
+
+## Posting requirement → evidence mapping
+
+- Capture and analyse business processes with AI → DataTalks "discover
+  user problems, scope iterations"; DataOps turns messy operations
+  (support, content, podcast, course ops) into reviewable workflows;
+  Slack assistant reviewed from unanswered and corrected questions so it
+  improves from real usage.
+- Competitive analysis / benchmark workflows against the market → no
+  evidenced formal competitive or market-benchmarking work. Not claimed.
+- Revise existing workflows and design new ones → DataOps (SOPs,
+  playbooks, recurring workflows, workflow state); Slack Q&A embedded in
+  the community workflow.
+- Plan product upgrades without breaking customer customisations → no
+  ERP/customisation-upgrade evidence. Closest true fact is OLX platform
+  work: standardizing how product groups build, deploy, and operate
+  models. Not framed as upgrade-without-breaking-customisations.
+- Own agent-based implementation and verify it with independent tests →
+  "coding-agent-assisted workflows" for day-to-day operations; Slack
+  assistant evaluations of retrieval and generation quality; DataOps
+  "reviewable AI assistant jobs".
+- Years of product development of business software (ERP, MES, planning,
+  logistics) → no ERP, MES, planning, or logistics product work. Product
+  engineering is for DataTalks.Club (education community) and OLX
+  (marketplace ML platform). Not claimed.
+- AI in requirements engineering, not just coding → evidenced as
+  "problem discovery" and "discover user problems, scope iterations".
+  The words "requirements engineering" are not used as a skill claim.
+- Daily work with AI and coding agents, including verifying output →
+  coding-agent-assisted operations; independent evaluation of the Slack
+  assistant; reviewable assistant jobs on DataOps.
+- At least one modernisation or replacement taken to go-live → shipped
+  production systems (Slack assistant, DataOps, OLX duplicate-image
+  detection and model-serving platform). These are new systems and
+  platform standardization, not a replacement of a large ERP. Not
+  described as an ERP go-live.
+- Business-fluent English → books, conference speaking, English-language
+  courses. German is listed as a plus on the posting; no language level
+  is on the common CV, so none is added.
+
+## What changed vs the common source (`alexey/cv.yml`)
+
+- Headline → `Product Engineer — Discovery, Workflows, and Agent Delivery`
+  (no self-assigned "Senior").
+- Summary keeps the same year counts and credibility anchors. Reframes
+  the middle toward identifying user needs, reviewable workflows, and
+  checking coding-agent work with evaluations. Does not mention ERP,
+  manufacturing, or market benchmarking.
+- Skills: Product & Delivery first (same items as the common Product
+  Engineering group). New Agentic Engineering group from the common
+  source (spec-driven development, software factories, loop engineering,
+  context engineering, graph engineering — terms from his AI Shipping
+  Blog posts on agentic engineering). AI Engineering keeps LLM
+  applications, RAG, agents, evaluations, human-in-the-loop systems.
+  Production stack unchanged. No unverified skill names.
+- One-page budget: `density: compact`; Projects dropped (Slack assistant
+  and DataOps already evidenced under Experience); Recognition trimmed
+  like the databricks variant (books + taught-100k + short Kaggle line).
+- DataTalks DataOps and coding-agent bullets merged into one, to fit
+  one page. The Zoomcamp/education-programs sentence is omitted here
+  (the taught-100k recognition line stays).
+- Experience, earlier roles, and education unchanged aside from the
+  DataTalks bullet tweaks already noted above.
+
+## Honest gaps (do NOT paper over)
+
+- No ERP, MES, planning, or logistics product experience.
+- No formal competitive analysis or market benchmarking of workflows.
+- No evidenced work on upgrading a large packaged product without
+  breaking customer customisations.
+- Delivery was to a community and internal product groups, not to an
+  enterprise ERP customer.
+- German proficiency is not stated on the common CV, so it is omitted.
+
+## Trace-back log
+
+- Agentic Engineering skill group added to `alexey/cv.yml` (terms from
+  his blog: spec-driven development, software factories, loop
+  engineering, context engineering, graph engineering). The DataOps
+  "messy operations → reviewable workflows" wording already lives in the
+  common project's second bullet.
+
+## Reuse
+
+Next position: `cp -r cv/alexey cv/alexey-<company>`, trim/add per the
+posting, note the diff here. Never hand-edit generated `cv.html`/`cv.pdf`.

@@ -35,4 +35,5 @@ chromium --headless --no-pdf-header-footer \
 
 New position: `cp -r cv/alexey cv/alexey-<company>`, tailor, add a
 `TAILORING.md` noting the diff, and trace general improvements back to
-`cv/alexey/cv.yml`.
+`cv/alexey/cv.yml`. Position-specific variants target **one page**
+(`basics.density: compact`); verify with `pdfinfo` after rendering the PDF.

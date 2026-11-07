@@ -36,5 +36,7 @@ Allowed:
   `cv/alexey/cv.yml`; closed-application snapshots (e.g. datadog) are not
   backported — note that instead.
 - When unsure whether something is backed: ask, don't invent.
-- Verify with `uv run render.py <person>` + Chromium PDF + `pdfinfo` page count
-  (datadog/databricks target 1 page via `density: compact`; others max 2).
+- Verify with `uv run render.py <person>` + Chromium PDF + `pdfinfo` page count.
+  Position-specific variants (`alexey-<company>`) target **1 page** via
+  `density: compact` (drop Projects when those builds already appear under
+  Experience). The common source (`alexey`) may be 2 pages.
