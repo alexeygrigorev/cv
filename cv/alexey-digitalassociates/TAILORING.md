@@ -59,27 +59,34 @@ instead of trusting it. Not an ERP-domain specialist.
 
 ## What changed vs the common source (`alexey/cv.yml`)
 
-- Headline → `Product Engineer — Discovery, Workflows, and Agent Delivery`
-  (no self-assigned "Senior").
-- Summary keeps the same year counts and credibility anchors. Reframes
-  the middle toward identifying user needs, reviewable workflows, and
-  checking coding-agent work with evaluations. Does not mention ERP,
-  manufacturing, or market benchmarking.
+- Headline → `Product Engineer — Ownership, Discovery, and Delivery`
+  (no self-assigned "Senior"; dropped the AI-engineer framing).
+- Summary opens as a product engineer, not a "product-minded AI
+  engineer". Same year counts and credibility anchors. Emphasizes
+  owning products end-to-end, reviewable workflows, and checking
+  coding-agent work with evaluations. OLX is described as owning the
+  ML platform as a product for internal product groups. Does not
+  mention ERP, manufacturing, or market benchmarking.
 - Skills: Product & Delivery first (same items as the common Product
-  Engineering group). New Agentic Engineering group from the common
-  source (spec-driven development, software factories, loop engineering,
+  Engineering group). Agentic Engineering group from the common source
+  (spec-driven development, software factories, loop engineering,
   context engineering, graph engineering — terms from his AI Shipping
-  Blog posts on agentic engineering). AI Engineering keeps LLM
-  applications, RAG, agents, evaluations, human-in-the-loop systems.
-  Production stack unchanged. No unverified skill names.
+  Blog). Production stack unchanged. No unverified skill names.
 - One-page budget: `density: compact`; Projects dropped (Slack assistant
   and DataOps already evidenced under Experience); Recognition trimmed
   like the databricks variant (books + taught-100k + short Kaggle line).
 - DataTalks DataOps and coding-agent bullets merged into one, to fit
   one page. The Zoomcamp/education-programs sentence is omitted here
   (the taught-100k recognition line stays).
-- Experience, earlier roles, and education unchanged aside from the
-  DataTalks bullet tweaks already noted above.
+- DataTalks first bullet leads with owning product work, not "AI product
+  work" / LLM/RAG (the Slack Q&A assistant stays as the shipped example).
+- OLX first bullet reframed toward product ownership of the internal ML
+  platform for product groups (same leadership, team, and standardization
+  facts; title stays Senior → Lead → Principal Data Scientist). The
+  mentoring/architecture bullet is folded into that ownership bullet so
+  the tailored PDF stays one page. The production-systems bullet now
+  says "shipped" rather than "built".
+- Earlier roles and education unchanged.
 
 ## Honest gaps (do NOT paper over)
 
@@ -95,9 +102,16 @@ instead of trusting it. Not an ERP-domain specialist.
 
 - Agentic Engineering skill group added to `alexey/cv.yml` (terms from
   his blog: spec-driven development, software factories, loop
-  engineering, context engineering, graph engineering). The DataOps
-  "messy operations → reviewable workflows" wording already lives in the
-  common project's second bullet.
+  engineering, context engineering, graph engineering).
+- DataTalks infrastructure-and-products ownership (internal and
+  external, including AI Shipping Labs) added from Alexey in-session
+  (t687, 2026-11-07) and traced back to the common source summary and
+  DataTalks experience bullet.
+- OLX platform bullet reframed as owning the ML platform as a product
+  for product groups (t688–t689, 2026-11-07) and applied to the common
+  source as well. No title change. The tailored variant also shifts
+  headline, summary, and DataTalks wording away from an AI-engineer
+  frame toward product ownership.
 
 ## Reuse
 

@@ -35,8 +35,9 @@ basics:
     Product-minded AI engineer with 16 years in software engineering and 14 years
     in AI and ML. I build reliable AI systems end-to-end, from identifying user
     needs to shipping working solutions. Founder of DataTalks.Club, where I run
-    a 100k+ learner community and develop tools to support its operations.
-    Previously led the ML platform team at OLX and built high-throughput
+    a 100k+ learner community and develop and maintain its infrastructure
+    and products — internal tools and external products including AI Shipping
+    Labs. Previously led the ML platform team at OLX and built high-throughput
     production ML systems.
 
 # Grouped for scannability and ATS keyword coverage.
@@ -66,8 +67,10 @@ experience:
         user problems, scope iterations, and ship and improve production LLM/RAG
         systems, including a Slack Q&A assistant embedded in the community workflow.
       - >-
-        Built an internal operations platform that combines workflow state for
-        SOPs, playbooks, and recurring workflows with knowledge search and
+        Develop and maintain DataTalks.Club's infrastructure and products —
+        internal and external, including AI Shipping Labs — and built an
+        internal operations platform that combines workflow state for SOPs,
+        playbooks, and recurring workflows with knowledge search and
         reviewable AI assistant jobs.
       - >-
         Created free education programs (ML, MLOps, LLM, and Data Engineering
@@ -81,10 +84,9 @@ experience:
     period: Oct 2018 – Mar 2023
     bullets:
       - >-
-        Led OLX Europe's internal ML platform and a cross-functional MLOps team
-        — in effect, internal consultants to product groups — standardizing how
-        data scientists and ML engineers build, deploy, and operate models across
-        the group.
+        Owned OLX Europe's internal ML platform as a product for product groups
+        across the company — led a cross-functional MLOps team that standardized
+        how data scientists and ML engineers build, deploy, and operate models.
       - >-
         Provided technical leadership through architecture ownership, mentoring
         and upskilling programs, hackathons, and cross-company knowledge sharing.

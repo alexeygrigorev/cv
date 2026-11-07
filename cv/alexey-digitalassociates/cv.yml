@@ -8,7 +8,7 @@
 
 basics:
   name: Alexey Grigorev
-  headline: Product Engineer — Discovery, Workflows, and Agent Delivery
+  headline: Product Engineer — Ownership, Discovery, and Delivery
   location: Berlin, Germany
   email: alexey@datatalks.club
   density: compact # one page — repo rule for position-specific variants
@@ -18,13 +18,15 @@ basics:
     - { label: Site, text: alexeygrigorev.com/cv, url: https://alexeygrigorev.com/cv }
 
   summary: >-
-    Product-minded AI engineer with 16 years in software engineering and 14 years
-    in AI and ML. I identify user needs, turn recurring operations into
-    reviewable workflows, and ship AI systems end-to-end — including day-to-day
-    work with coding agents that is checked with evaluations. Founder of
-    DataTalks.Club, where I run a 100k+ learner community and develop tools to
-    support its operations. Previously led the ML platform team at OLX and
-    built high-throughput production ML systems.
+    Product engineer with 16 years in software engineering and 14 years
+    in AI and ML. I own products end-to-end: from identifying user needs
+    to shipping working solutions, turning recurring operations into
+    reviewable workflows, and checking coding-agent work with evaluations.
+    Founder of DataTalks.Club, where I run a 100k+ learner community and
+    develop and maintain its infrastructure and products — internal tools
+    and external products including AI Shipping Labs. Previously owned the
+    ML platform at OLX as a product for internal product groups and shipped
+    high-throughput production systems.
 
 skills:
   - group: Product & Delivery
@@ -41,14 +43,16 @@ experience:
     period: Sep 2020 – Present
     bullets:
       - >-
-        Own AI product work end-to-end for a 100k+ learner community — discover
-        user problems, scope iterations, and ship and improve production LLM/RAG
-        systems, including a Slack Q&A assistant embedded in the community workflow.
+        Own product work end-to-end for a 100k+ learner community — discover
+        user problems, scope iterations, and ship and improve production
+        systems, including a Slack Q&A assistant embedded in the community
+        workflow.
       - >-
-        Built an internal operations platform that combines workflow state for
-        SOPs, playbooks, and recurring workflows with knowledge search and
-        reviewable AI assistant jobs, and run day-to-day operations with a
-        small team using coding-agent-assisted workflows.
+        Develop and maintain DataTalks.Club's infrastructure and products —
+        internal and external, including AI Shipping Labs — and the internal
+        operations platform for SOPs, playbooks, recurring workflows, and
+        reviewable AI assistant jobs. Run day-to-day operations with a small
+        team using coding-agent-assisted workflows.
 
   - company: OLX Group
     title: Senior → Lead → Principal Data Scientist
@@ -56,15 +60,12 @@ experience:
     period: Oct 2018 – Mar 2023
     bullets:
       - >-
-        Led OLX Europe's internal ML platform and a cross-functional MLOps team
-        — in effect, internal consultants to product groups — standardizing how
-        data scientists and ML engineers build, deploy, and operate models across
-        the group.
+        Owned OLX Europe's internal ML platform as a product for product groups
+        across the company — led a cross-functional MLOps team that standardized
+        how data scientists and ML engineers build, deploy, and operate models,
+        with architecture ownership, mentoring, and cross-company knowledge sharing.
       - >-
-        Provided technical leadership through architecture ownership, mentoring
-        and upskilling programs, hackathons, and cross-company knowledge sharing.
-      - >-
-        Built two high-throughput production ML systems — duplicate-image
+        Shipped two high-throughput production systems — duplicate-image
         detection covering 95% of inventory (~250 images/sec) and a platform for
         serving deep-learning models (~200 images/sec).
 
