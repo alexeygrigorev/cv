@@ -88,6 +88,7 @@ instead of trusting it. Not an ERP-domain specialist.
   says "shipped" rather than "built".
 - Header also includes his blog, https://aishippingblog.com (t695, 2026-11-07).
   Traced back to the common source.
+- Email omitted from the header (t696, 2026-11-07); recruiter gets it from the message.
 - Earlier roles and education unchanged.
 
 ## Honest gaps (do NOT paper over)

@@ -10,7 +10,7 @@ basics:
   name: Alexey Grigorev
   headline: Product Engineer — Ownership, Discovery, and Delivery
   location: Berlin, Germany
-  email: alexey@datatalks.club
+  # email omitted from header (t696) — recruiter already has it via email
   density: compact # one page — repo rule for position-specific variants
   links:
     - { label: LinkedIn, text: linkedin.com/in/agrigorev, url: https://www.linkedin.com/in/agrigorev }
