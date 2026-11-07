@@ -1,5 +1,7 @@
 # CV Build Playbook — turning any CV into a focused AI-engineering résumé
 
+Alexey-specific workflow (when he sends a job and asks to tailor his CV, then send it) lives in `AGENTS.md`. This file is the upstream formatting playbook.
+
 A repeatable process for taking **anyone's** raw/verbose CV and producing a
 focused, truthful, Harvard-format **AI-engineering** résumé from a single
 display-agnostic source. It bakes in every editorial correction as a **rule**, so

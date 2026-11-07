@@ -18,6 +18,7 @@ from upstream except one backward-compatible renderer extension: optional
 | `cv/alexey-databricks/cv.yml` | Databricks Staff FDE variant + `TAILORING.md` (req 8653264002). |
 | `cv/alexey-edtech/cv.yml` | EdTech variant (Berlin education companies) + `TAILORING.md`. |
 | `cv/alexey-knowunity/cv.yml` | Knowunity-targeted variant + `TAILORING.md`. |
+| `cv/alexey-digitalassociates/cv.yml` | Digital Associates Product Engineer variant + `TAILORING.md`. |
 | `cv/render.py` | Shared renderer (`uv run render.py <person>` → `<person>/cv.html`). |
 | `cv/*/cv.html`, `cv/*/cv.pdf` | Generated, git-ignored. Never edit by hand. |
 
@@ -37,3 +38,8 @@ New position: `cp -r cv/alexey cv/alexey-<company>`, tailor, add a
 `TAILORING.md` noting the diff, and trace general improvements back to
 `cv/alexey/cv.yml`. Position-specific variants target **one page**
 (`basics.density: compact`); verify with `pdfinfo` after rendering the PDF.
+
+When Alexey sends a posting or recruiter note and asks to adjust the CV,
+follow **AGENTS.md** (“When Alexey asks to tailor a CV for a role”): show
+the PDF first, send only after he confirms, and put Calendly in the email
+rather than on the CV.
